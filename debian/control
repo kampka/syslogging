@@ -1,0 +1,16 @@
+Source: syslogging
+Section: python
+Priority: extra
+Maintainer: Christian Kampka <chris@emerge-life.de>
+Build-Depends: debhelper (>= 8.0.0), python ( >= 2.7), python-setuptools
+Standards-Version: 3.9.2
+Homepage: http://github.com/kampka/syslogging
+Vcs-Git: git@github.com:kampka/syslogging.git
+
+Package: python-syslogging
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python ( >= 2.7)
+Description: A syslog(3) LogHandler for pythons logging system
+ This modules provides a LogHandler for pythons logging system
+ that logs to the system logger using syslog(3) instead of
+ talking to the system logger over socket connections directly.
