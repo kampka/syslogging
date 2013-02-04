@@ -32,10 +32,10 @@ def readme():
 
 setup(
     name='syslogging',
-    version="0.1",
+    version="0.1.1",
     license='BSD-3',
     author='Christian Kampka',
-    author_email='chris@emerge-life.de',
+    author_email='christian@kampka.net',
     description='A logging Handler that logs to syslog using syslog(3)',
     long_description=readme(),
     url='https://github.com/kampka/syslogging',
@@ -45,4 +45,14 @@ setup(
     ],
     test_suite="syslogging.tests",
     packages=find_packages(),
+    classifiers = [
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Topic :: Software Development',
+        'Topic :: System :: Logging'
+        ],
     )
