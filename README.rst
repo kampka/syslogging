@@ -15,3 +15,5 @@ Example::
     >>> logger = logging.getLogger("my-application")
     >>> logger.addHandler(SyslogHandler("my-application"))
     >>> logger.error("Hello World")
+
+.. image:: https://travis-ci.org/kampka/syslogging.png?branch=master
