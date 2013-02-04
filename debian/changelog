@@ -1,3 +1,10 @@
+python-syslogging (0.1.1) unstable; urgency=low
+
+  * fix tests directory name
+  * various metadata improvements
+
+ -- Christian Kampka <christian@kampka.net>  Mon, 04 Feb 2013 16:02:46 +0100
+
 python-syslogging (0.1) unstable; urgency=low
 
   * Initial release.
