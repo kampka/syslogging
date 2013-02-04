@@ -35,7 +35,7 @@ setup(
     version="0.1",
     license='BSD-3',
     author='Christian Kampka',
-    author_email='chris@emerge-life.de',
+    author_email='christian@kampka.net',
     description='A logging Handler that logs to syslog using syslog(3)',
     long_description=readme(),
     url='https://github.com/kampka/syslogging',
