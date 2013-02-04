@@ -45,4 +45,14 @@ setup(
     ],
     test_suite="syslogging.tests",
     packages=find_packages(),
+    classifiers = [
+        'Development Status :: 5 - Production/Stable'
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Topic :: Software Development',
+        'Topic :: System :: Logging'
+        ],
     )
