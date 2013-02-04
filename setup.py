@@ -32,7 +32,7 @@ def readme():
 
 setup(
     name='syslogging',
-    version="0.1",
+    version="0.1.1",
     license='BSD-3',
     author='Christian Kampka',
     author_email='christian@kampka.net',
