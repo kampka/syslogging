@@ -5,11 +5,13 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
+  - "3.5"
+  - "3.6"
   - "pypy"
   - "pypy3"
 
 install:
-  - pip install -q --use-mirrors testtools fixtures
+  - pip install -q testtools fixtures
   - python setup.py -q install
 
 script:
