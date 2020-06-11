@@ -5,6 +5,8 @@ syslogging
 A syslog(3) LogHandler for pythons logging system
 -------------------------------------------------
 
+**The Debian support for this project is unmaintained**
+
 This modules provides a LogHandler for pythons logging system
 that logs to the system logger using syslog(3) instead of
 talking to the system logger over socket connections directly.
